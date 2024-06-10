@@ -1,0 +1,26 @@
+### INIT
+
+C:\javascript-projects\hapi-web-server>npm init --y
+Wrote to C:\javascript-projects\hapi-web-server\package.json:
+
+{
+  "name": "hapi-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+C:\javascript-projects\hapi-web-server>npm run start
+
+> hapi-web-server@1.0.0 start
+> node server.js
+
+Halo, kita akan belajar membuat server menggunakan Hapi
+
+###
