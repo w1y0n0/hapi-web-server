@@ -42,4 +42,21 @@ Server berjalan pada http://localhost:5000
 C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000
 {"statusCode":404,"error":"Not Found","message":"Not Found"}
 
+C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000
+Hello World!
+
+C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000
+Homepage
+C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000/about
+About Page
+
+C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000       
+Homepage
+C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000/about
+About page
+C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000/test
+Halaman tidak ditemukan
+C:\javascript-projects\hapi-web-server>curl -X POST http://localhost:5000      
+Halaman tidak dapat diakses dengan method tersebut
+
 ###
