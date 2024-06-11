@@ -73,4 +73,9 @@ Hai, dicoding
 C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000/hello/dicoding
 Hello, dicoding
 
+### BODY/PAYLOAD REQUEST
+
+curl -X POST -H "Content-Type: application/json" http://localhost:5000/login -d "{\"username\": \"harrypotter\",\"password\": \"encryptedpassword\"}"
+Welcome harrypotter!
+
 ###
