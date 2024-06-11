@@ -59,11 +59,18 @@ Halaman tidak ditemukan
 C:\javascript-projects\hapi-web-server>curl -X POST http://localhost:5000      
 Halaman tidak dapat diakses dengan method tersebut
 
-### Path Parameter
+### PATH PARAMETER
 
 C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000/hello/dicoding
 Hello, dicoding
 C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000/hello         
 Hello, stranger
+
+### QUERY PARAMETERS
+
+C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000/hello/dicoding?lang=id
+Hai, dicoding
+C:\javascript-projects\hapi-web-server>curl -X GET http://localhost:5000/hello/dicoding
+Hello, dicoding
 
 ###
